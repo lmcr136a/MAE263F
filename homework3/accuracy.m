@@ -1,4 +1,6 @@
 function acc = accuracy(Y_pred, Y)
+% Evelyn Kim, 706180341
+% 
 % Returns the accuracy, which is the percentage of correct predictions.
 % Inputs:
 %         Y_pred: a 10 x N array containing the predicted labels of each input image.

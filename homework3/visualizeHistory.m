@@ -1,4 +1,6 @@
 function visualizeHistory(epochs, trainLoss, testAccuracy, lr, numLayer)
+% Evelyn Kim, 706180341
+% 
 % visualizeHistory: a function that plots and saves the training loss and testing accuracy versus time under specific hyperparameters.
 %   Inputs:
 %       epochs: a integer shows the number of training epochs

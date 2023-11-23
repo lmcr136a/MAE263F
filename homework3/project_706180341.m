@@ -1,3 +1,5 @@
+%% Evelyn Kim, 706180341
+
 %% Main File
 clear all; close all; clc;
 
@@ -10,7 +12,7 @@ output_size = size(Y_train, 1);% output size (number of classes) of the FNN
 neurons = 64;  % neurons each layer
 numLayer = 2;
 lr = 0.01; % learning rate
-epochs = 50; % epochs
+epochs = 1; % epochs
 
 layer_dims = zeros(1, numLayer + 2);
 layer_dims(1) = input_size;
@@ -55,7 +57,7 @@ for i = 1:epochs
     % Print the cost each epoch
     fprintf('Loss after epoch %d: Training: %f\n', i, norm(cost));
     trainLoss(i) = norm(cost);
-    testAccuracy(i) = acc;
+    testAccuracy(i) = acc; 
 end
     
 
