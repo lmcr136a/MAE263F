@@ -12,7 +12,7 @@ output_size = size(Y_train, 1);% output size (number of classes) of the FNN
 neurons = 64;  % neurons each layer
 numLayer = 2;
 lr = 0.01; % learning rate
-epochs = 1; % epochs
+epochs = 150; % epochs
 
 layer_dims = zeros(1, numLayer + 2);
 layer_dims(1) = input_size;
